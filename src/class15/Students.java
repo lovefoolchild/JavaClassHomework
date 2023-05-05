@@ -18,7 +18,8 @@ public class Students {
         numberOfStudents++;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Students student1=new Students();
         student1.studentName="Muffins";
         student1.studentID="C09A19T";
