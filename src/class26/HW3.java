@@ -19,10 +19,13 @@ public class HW3 {
         objects.add("at ");
         objects.add("night.");
 
-        StringBuilder result = new StringBuilder();
+        for (String concat : objects) {
+            System.out.print(concat+" ");
+        }
+        /*StringBuilder result = new StringBuilder();
         for ( String str : objects){
             result.append(str);
         }
-        System.out.println(result);
+        System.out.println(result);*/
     }
 }
